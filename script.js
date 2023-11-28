@@ -173,4 +173,4 @@ const config = {
     .getElementById("studentID")
     .addEventListener("input", validateStudentID);
   document.getElementById("email").addEventListener("input", validateEmail);
-  
+  // script.js
