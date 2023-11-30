@@ -1,6 +1,7 @@
 /* Set the font family for the entire body */
 body {
     font-family: Arial, sans-serif;
+    background-color: black;
   }
   
   /* Styling for the form container */
@@ -8,7 +9,7 @@ body {
     max-width: 600px;
     margin: 20px auto;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid white;
     border-radius: 5px;
   }
   
@@ -16,6 +17,9 @@ body {
   .form-container h1 {
     text-align: center;
     margin-bottom: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
   }
   
   /* Styling for each form group */

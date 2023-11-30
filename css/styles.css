@@ -3,14 +3,14 @@
     box-sizing: border-box;
   }
 body{
-    background-color: rgb(212, 197, 156);
+    background-color: rgb(20, 25, 170);
 }
 .header{
     text-decoration: underline;
     text-align: center;
     border: 5px solid red;
     padding: 15px;
-    background-color: #b097dd;
+    background-color: #aa92d5;
 }
 .row::after {
     content: "";
@@ -26,8 +26,8 @@ body{
 .main {
     float: left;
     padding: 15px;
-    border: 5px solid rgb(255, 187, 0);
-    background-color: #0099cc;
+    border: 5px solid rgb(237, 76, 7);
+    background-color: #eeb71f;
 }
 .secondary{
     float: left;
@@ -35,7 +35,7 @@ body{
     border: 5px solid rgb(180, 109, 109);
 }
 .footer {
-    background-color: #0099cc;
+    background-color: #0e91bd;
     color: #ffffff;
     text-align: center;
     font-size: 12px;
@@ -55,7 +55,7 @@ html{
 .menu li {
     padding: 8px;
     margin-bottom: 7px;
-    background-color :#33b5e5;
+    background-color :#1e9cd6;
     color: #ffffff;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
