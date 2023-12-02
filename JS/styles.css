@@ -1,7 +1,7 @@
 /* Set the font family for the entire body */
 body {
     font-family: Arial, sans-serif;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
   }
   
   /* Styling for the form container */
