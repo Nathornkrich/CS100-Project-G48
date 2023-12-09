@@ -1,88 +1,57 @@
-/* Set the font family for the entire body */
-body {
-    font-family: Arial, sans-serif;
-    background-color: rgb(255, 255, 255);
-  }
-  
-  /* Styling for the form container */
-  .form-container {
-    max-width: 600px;
-    margin: 20px auto;
-    padding: 20px;
-    border: 1px solid white;
-    border-radius: 5px;
-  }
-  
-  /* Center-align the heading and add margin at the bottom */
-  .form-container h1 {
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-color: rgb(236, 207, 207);
+    background: radial-gradient(rgba(179,255,255,0.5), rgba(255,255,255,0.5),rgba(0,0,0,0.3));
     text-align: center;
-    margin-bottom: 20px;
-    border: 1px solid #ddd;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
-  }
-  
-  /* Styling for each form group */
-  .form-group {
-    margin-bottom: 20px;
-  }
-  
-  /* Styling for form group labels */
-  .form-group label {
-    display: block;
-    font-weight: bold;
-  }
-  
-  /* Styling for various form input types */
-  .form-group input[type="text"],
-  .form-group input[type="email"],
-  .form-group select,
-  .form-group textarea,
-  .form-group input[type="datetime-local"] {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-  
-  /* Allow vertical resizing for textareas */
-  .form-group textarea {
-    resize: vertical;
-  }
-  
-  /* Styling for select dropdowns */
-  .form-group select {
-    width: 100%;
-  }
-  
-  /* Styling for the submit button */
-  .form-group input[type="submit"] {
-    background-color: #4caf50;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  /* Styling for small helper text */
-  .form-group small {
-    font-size: 12px;
-    color: #888;
-  }
-  
-  /* New styles for error messages */
-  
-  /* Position the error message relatively within the form group */
-  .form-group {
-    position: relative;
-  }
-  
-  /* Styling for error messages */
-  .error {
-    color: red;
-    display: block;
-    margin-top: 5px;
-  }
-  
+}
+#nameDiv {
+    margin-top: 50px;
+}
+.input {
+    font-size: 10px;
+    color:rgb(22, 15, 4);
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+}
+.form-group {
+    font-size: 10px;
+    color:rgb(22, 15, 4);
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+}
+#entry {
+    width: 150px;
+    height: 40px;
+    font-size: 23px;
+    font-family: "Comic Sans Ms",cursive,sans-serif;
+    background-color: #0f3bc0;
+    color: whitesmoke;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+}
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 50px auto;
+    background-color: aquamarine;
+}
+table,th,td{
+    border : 2px solid black ;
+    padding : 5px ;
+}
+th {
+    font-size: 30 px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet;
+}
+td {
+    font-size: 25px;
+    color: crimson;
+    font-weight: 400;
+    font-family: Georgia;
+}
