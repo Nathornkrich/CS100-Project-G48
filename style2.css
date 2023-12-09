@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-color: rgb(236, 207, 207);
+    background: radial-gradient(rgba(179,255,255,0.5), rgba(255,255,255,0.5),rgba(0,0,0,0.3));
+    text-align: center;
+}
+#nameDiv {
+    margin-top: 50px;
+}
+.input {
+    font-size: 10px;
+    color:rgb(22, 15, 4);
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+}
+.form-group {
+    font-size: 10px;
+    color:rgb(22, 15, 4);
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+}
+#entry {
+    width: 150px;
+    height: 40px;
+    font-size: 23px;
+    font-family: "Comic Sans Ms",cursive,sans-serif;
+    background-color: #0f3bc0;
+    color: whitesmoke;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+}
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 50px auto;
+    background-color: aquamarine;
+}
+table,th,td{
+    border : 2px solid black ;
+    padding : 5px ;
+}
+th {
+    font-size: 30 px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet;
+}
+td {
+    font-size: 25px;
+    color: crimson;
+    font-weight: 400;
+    font-family: Georgia;
+}

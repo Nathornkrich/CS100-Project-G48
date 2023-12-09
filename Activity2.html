@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en"
+<haed>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Details Display in Table</title>
+    <link rel="stylesheet" type="text/css" href="style2.css" />
+</haed>
+<body>
+    <div id="container">
+        <h1>Ous CSTU Passport</h1>
+        <div class="input">Firstname and Lastname:<input id="name"      type="text" placeholder="XXX XXX" />
+          <small>Only enter your first name and last name.</small>
+          <span id="fullnameError" class="error"></span>
+        </div>
+        <div class="input">StudentID :<input id="studentID" type="text" placeholder="6XXXXXXXXX"/>
+          <small>Please enter your 10-digital student ID.</small>
+          <span id="studentID error" class="error"></span>
+        </div>
+        <div class="input">University Email:<input id="email" type="text" placeholder="xxx.xxx@dome.tu.ac.th"/>
+            <small>Please provide your university email in the format.</small>
+            <span id="email error" class="error"></span>
+         </div>
+         
+        <div class="input">Work/Activity TItle<input id="work" type="text" placeholder="Police"/>
+        </div>
+        <div class="form-group">
+            <label for="activityType">Type of Work/Activity</label>
+            <select id="activityType" name="activityType">
+              <option value="" disabled selected>Select an option</option>
+              <option value="Course">Course</option>
+              <option value="Activity">Activity</option>
+              <option value="Work">Work</option>
+              <option value="Research">Research</option>
+              <option value="Sports">Sports</option>
+              <option value="Competition">Competition</option>
+              <option value="Computer Science">Computer Science</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="academicYear">Academic Year</label>
+            <select id="academicYear" name="academicYear">
+              <option value="" disabled selected>Select an option</option>
+              <option value="2561">2561</option>
+              <option value="2562">2562</option>
+              <option value="2563">2563</option>
+              <option value="2564">2564</option>
+              <option value="2565">2565</option>
+              <option value="2566">2566</option>
+              <option value="2567">2567</option>
+              <option value="2568">2568</option>
+              <option value="2569">2569</option>
+            </select>
+          </div>
+          
+      <div class="form-group">
+        <label for="semester">Semester</label>
+        <select id="semester" name="semester">
+          <option value="" disabled selected>Select an option</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="Summer">Summer</option>
+        </select>
+      </div>
+
+      
+      <div class="form-group">
+        <label for="endDate">End Date/Time</label>
+        <input type="datetime-local" id="endDate" name="endDate" />
+      </div>
+      <div class="input">Location :<input id="location" type="text"/></div>
+
+      <div class="input">Description :<input id="description" type="text"/></div>
+
+
+        <button id="entry">submit</button>
+        
+    </div>
+    <table id="display">
+        <tr>
+            <th>Name</th>
+            <th>StudentID</th>
+            <th>Email</th>
+            <th>Work</th>
+            <th>Location</th>
+            <th>Description</th>
+        </tr>
+    </table>
+    <script src="script2.js"></script>
+</body>
+</html>
