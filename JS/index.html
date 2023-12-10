@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Get Details Display in Table</title>
-    <link rel="stylesheet" type="text/css" href="style2.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
 </haed>
 <body>
     <div id="container">
@@ -14,7 +14,7 @@
           <small>Only enter your first name and last name.</small>
           <span id="fullnameError" class="error"></span>
         </div>
-        <div class="input">StudentID :<input id="studentID" type="text" placeholder="6XXXXXXXXX"/>
+        <div class="input">StudentID :<input id="studentID" type="text" placeholder="6XXXXXXXXX" maxlength="10"/>
           <small>Please enter your 10-digital student ID.</small>
           <span id="studentID error" class="error"></span>
         </div>
@@ -23,7 +23,7 @@
             <span id="email error" class="error"></span>
          </div>
          
-        <div class="input">Work/Activity TItle<input id="work" type="text" placeholder="Police"/>
+        <div class="input">Work/Activity TItle<input id="work" type="text" placeholder="Police" required/>
         </div>
         <div class="form-group">
             <label for="activityType">Type of Work/Activity</label>
@@ -64,6 +64,10 @@
         </select>
       </div>
 
+      <div class="form-group">
+        <label for="startDate">Start Date/Time</label>
+        <input type="datetime-local" id="startDate" name="startDate" />
+      </div>
       
       <div class="form-group">
         <label for="endDate">End Date/Time</label>
@@ -87,6 +91,6 @@
             <th>Description</th>
         </tr>
     </table>
-    <script src="script2.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
